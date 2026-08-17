@@ -17,6 +17,10 @@
     height: 50px;
     width: 100px;
 }
+.nav-logo:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
 
 .logo {
     background-image: url(amazon_logo.png);
@@ -30,7 +34,8 @@
 }
 
 .border:hover {
-    border: 1.5px solid white;
+    border: 1px solid white;
+    border-radius: 2px;
 }
 
 /* box 2 */
@@ -39,6 +44,9 @@
     font-size: 0.85rem;
     margin-left: 15px;
 
+}
+.nav-address{
+    padding: 7px;
 }
 
 .add-second {
@@ -95,6 +103,12 @@
 span {
     font-size: 0.7rem;
 }
+.nav-signin{
+    padding: 7px;
+}
+.nav-return{
+    padding: 7px;
+}
 
 .nav-second{
     font-size: 0.85rem;
@@ -109,4 +123,66 @@ span {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+    padding: 7px;
 }
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all:hover{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+    
+}
+.panel-options p {
+   display: inline;
+   margin-left: 12px;
+   font-weight: 500;
+}
+
+.panel-options{
+    width: 92%;
+    font-size: 0.9rem;
+}
+
+.opt1:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:10px ;
+}
+
+.opt2:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:10px ;
+}
+.opt3:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:10px ;
+}
+.opt4:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:10px ;
+}
+.opt5:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:10px ;
+}
+.opt6:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding:10px ;
+}
+
+/* hero section */
