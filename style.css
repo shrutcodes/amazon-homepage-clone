@@ -215,6 +215,7 @@ span {
 /* shop-section */
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #A938FA;
 
@@ -223,14 +224,14 @@ span {
 .box {
     /* border: 2px solid black; */
     background-color: white;
-    height: 375px;
+    height: 400px;
     width: 23%;
     padding: 20px 0px 15px;
-    margin-top: 1px;
+    margin-top: 15px;
 }
 
 .box-img{
-    height: 275px;
+    height: 300px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -243,4 +244,6 @@ span {
 
 .box-content p {
     color: #007185;
+    font-size: 0.75rem;
+    padding-top: 1rem;
 }
