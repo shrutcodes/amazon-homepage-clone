@@ -218,6 +218,7 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #A938FA;
+    background: linear-gradient(to bottom,#A938FA,#f3f3f3 );
 
 }
 
@@ -247,3 +248,20 @@ span {
     font-size: 0.75rem;
     padding-top: 1rem;
 }
+
+/* footer */
+
+footer {
+    margin-top: 1rem;
+}
+
+.foot-panel1 a {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
