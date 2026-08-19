@@ -320,3 +320,33 @@ u a:hover {
 html {
     scroll-behavior: smooth;
 }
+
+.foot-panel3 {
+    background: #232f3e;
+    color: white;
+    border-top: 0.5px solid grey;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.language{
+    padding: 5px;
+    border: 0.85px solid grey;
+    border-radius: 2px;
+    font-size: 0.85rem;
+}
+
+.currency{
+      padding: 5px;
+    border: 0.85px solid grey;
+    border-radius: 2px;
+    font-size: 0.85rem;
+}
