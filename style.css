@@ -280,7 +280,7 @@ footer {
 }
 
 .foot-panel1:hover {
-    background-color:#606C7A;
+    background-color: #606C7A;
 }
 
 a {
@@ -317,6 +317,7 @@ u a:hover {
 .foot-panel2 p {
     font-weight: 700;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -328,6 +329,8 @@ html {
     height: 70px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    
 }
 
 .logo {
@@ -335,18 +338,41 @@ html {
     background-size: cover;
     height: 50px;
     width: 100px;
+    /* margin-left: 200px; */
 }
 
-.language{
+.language {
     padding: 5px;
     border: 0.85px solid grey;
     border-radius: 2px;
     font-size: 0.85rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    /* margin-left: 30px; */
 }
 
-.currency{
-      padding: 5px;
+.currency {
+    padding: 5px;
+    border: 0.85px solid grey;
+    border-radius: 2px;
+    font-size: 0.85rem;
+    
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    padding-inline-end: 0.5rem;
     border: 0.85px solid grey;
     border-radius: 2px;
     font-size: 0.85rem;
 }
+
+.us-flag {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
+
+
