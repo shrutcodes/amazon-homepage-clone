@@ -330,6 +330,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 30px;
     
 }
 
@@ -373,6 +374,32 @@ html {
     padding-left: 0.5rem;
 }
 
+.foot-panel4 {
+    background-color: #131a22;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65rem;
+}
 
+.foot-panel4 a {
+    padding:5px;
+}
+
+.foot-panel4 a:hover {
+text-decoration-line: underline;
+}
+
+.copyright{
+    height: 35px;
+    background-color: #131a22;
+    font-size: 0.75rem;
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+
+}
 
 
